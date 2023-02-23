@@ -35,3 +35,9 @@
 
 # copying backup to slave server
 `scp db1.sql slaver-server-ip:/root/`
+
+# to unlock read only table
+`unlock tables;`
+
+# To see master status
+`show master status\g;`
